@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="alfabankAD.jpg" />
+    <None Remove="alfabankdark.jpeg" />
+    <None Remove="Iconshock-Mortal-Kombat-Mortal-kombat-3.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="alfabankAD.jpg" />
+    <Resource Include="alfabankdark.jpeg" />
+    <Resource Include="Iconshock-Mortal-Kombat-Mortal-kombat-3.ico" />
+  </ItemGroup>
+
+</Project>
